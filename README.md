@@ -1,7 +1,6 @@
 # SmartKaufen Service
 
 SmartKaufen Service is a powerful AI-backed service aimed at making shopping convenient, affordable, and personalized for users. With a special focus on sustainability and budget considerations, the service revolutionizes the traditional shopping experience.
-
 ## Key Features
 
 - **Custom shopping lists:** The service curates personalized shopping lists for users based on their unique preferences and constraints. These shopping lists contain details like the product ID, name, and price of each product.
@@ -18,13 +17,18 @@ SmartKaufen Service is a powerful AI-backed service aimed at making shopping con
 
 This project is implemented in Java using Jakarta EE, leveraging features of Lombok library for efficient coding, and Spring JdbcTemplate for handling database operations.
 
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- You must have a running AI model server using 'ollama'. Installation and setup instructions can be found on the [ollama documentation](http://ollama.ai/doc/).
 ## How it works
 
 The service primarily revolves around `BatchProcessorService` that holds the bulk of the logic. It fetches products from the database in batches, builds the request data and passes it to the integrated AI server. The response from the AI server is processed, the shopping list is updated accordingly. Once the processing is done for all the batches, the final shopping list is stored back in the database.
 
 ## Contributions
 
-Contributions, issues and feature requests are welcome! Feel free to check the [Issues](https://github.com/your-repository/issues) page if you want to contribute.
+Contributions, issues and feature requests are welcome!
 
 Enjoy coding and have fun!
 
