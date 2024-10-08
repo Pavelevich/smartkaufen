@@ -1,4 +1,4 @@
-# SmartKaufen Service
+#  AI Smart Service
 ![image](https://github.com/user-attachments/assets/0f5cd8b0-19ca-421f-a8c4-fec5a1951410)
 
 
