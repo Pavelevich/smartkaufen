@@ -1,7 +1,6 @@
 package com.ia.smartkaufen.controller;
 
 import com.ia.smartkaufen.services.BatchProcessorService;
-import com.ia.smartkaufen.services.OllamaService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

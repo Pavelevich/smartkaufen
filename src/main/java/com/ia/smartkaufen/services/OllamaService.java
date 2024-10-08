@@ -16,6 +16,9 @@ import org.springframework.web.client.RestTemplate;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Service class for interacting with the Ollama API to generate responses based on input data.
+ */
 @Service
 @AllArgsConstructor
 public class OllamaService {
@@ -23,7 +26,7 @@ public class OllamaService {
     private final RestTemplate restTemplate;
 
     public String sendDataToServer(String data) {
-        String url = "http://127.0.0.1:11434/api/generate"; // Ajusta la URL según sea necesario
+        String url = "http://127.0.0.1:11434/api/generate";
         ObjectMapper objectMapper = new ObjectMapper();
 
         Map<String, Object> requestBodyMap = new HashMap<>();
@@ -38,7 +41,7 @@ public class OllamaService {
             requestBody = objectMapper.writeValueAsString(requestBodyMap);
             System.out.println("Request Body: " + requestBody);
         } catch (JsonProcessingException e) {
-            return "Error al convertir el cuerpo de la petición a JSON: " + e.getMessage();
+            return "Error JSON: " + e.getMessage();
         }
 
         HttpHeaders headers = new HttpHeaders();
