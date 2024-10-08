@@ -1,4 +1,7 @@
 # SmartKaufen Service
+![image](https://github.com/user-attachments/assets/0f5cd8b0-19ca-421f-a8c4-fec5a1951410)
+
+
 
 SmartKaufen Service is a powerful AI-backed service aimed at making shopping convenient, affordable, and personalized for users. With a special focus on sustainability and budget considerations, the service revolutionizes the traditional shopping experience.
 ## Key Features
