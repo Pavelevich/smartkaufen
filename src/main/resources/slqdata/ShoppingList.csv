@@ -1,0 +1,146 @@
+4,1,"{ ""instruction"": ""Create a shopping list based on the provided data."" }
+
+    
+
+
+
+
+
+   ",2024-10-06 14:40:10.473,0.00
+5,2,"{ ""instruction"": ""Create a shopping list based on the provided data."", ""data"": [
+  {""ProductID"": 3591, ""Name"": ""Gala Apples"", ""Brand"": ""Gala"", ""Price"": 48.81, ""Quantity"": 6},
+  {""ProductID"": 3600, ""Name"": ""Lays Potato Chips"", ""Brand"": ""Lays"", ""Price"": 37.91, ""Quantity"": 1},
+  {""ProductID"": 3595, ""Name"": ""Coca-Cola Zero"", ""Brand"": ""Coca-Cola"", ""Price"": 42.77, ""Quantity"": 3}
+]}
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+",2024-10-06 14:42:17.600,129.49
+6,3,"{ ""shoppingList"": [
+  {""ProductID"":2391,""Name"":""Alpina Heavy Cream"",""Brand"":""Alpina"",""Price"":21.12},
+  {""ProductID"":2392,""Name"":""Bimbo Whole Wheat Bread"",""Brand"":""Bimbo"",""Price"":17.26},
+  {""ProductID"":2393,""Name"":""Nestlé Whole Milk"",""Brand"":""Nestlé"",""Price"":28.92},
+  {""ProductID"":2396,""Name"":""Häagen-Dazs Vanilla Ice Cream"",""Brand"":""Häagen-Dazs"",""Price"":46.85}
+] }
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+",2024-10-06 14:48:31.067,114.15
